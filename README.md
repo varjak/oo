@@ -11,6 +11,6 @@ addpath('path_to_oo/oo')
 ```
 Then, use the package namespace to call its functions. For example:
 ```
-data = oo.io.load('set',"Dataset-1",'fol',"Preprocessed/",'sub',[1,2,3],'ses',["session-1","session-2"],'run',[1,2]);
+data = oo.io.load('set',"Dataset-1",'fol',"Preprocessed/",'sub',[1,2,3],'ses',["ses-1","ses-2"],'run',[1,2]);
 epoc = oo.proc.epoch(data,'event',"S  7",'elims',[-5.5,5.5])
 ```
