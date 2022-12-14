@@ -6,9 +6,10 @@ It was developed to evaluate the reduction of MRI-artifacts on an EEG by the onl
 https://github.com/LaSEEB/NeuXus
 
 To use it, download it and in your script, add the path to the package:
-
+```
 addpath('path_to_oo/oo')
-
-Then, call its functions by using the package namespace. For example:
-
+```
+Then, use the package namespace to call its functions. For example:
+```
 data = oo.io.load('set','Dataset-1','fol','Preprocessed/','sub',[1,2,3],'ses',["session-1", "session-2"],'run',[1,2]);
+```
