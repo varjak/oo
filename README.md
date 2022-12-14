@@ -4,3 +4,9 @@ oo is an experimental MATLAB package for processing EEG data from multiple files
 
 It was developed to evaluate the reduction of MRI-artifacts on an EEG by the online reduction tool found in:
 https://github.com/LaSEEB/NeuXus
+
+To use it, download it and in your script, add the path to the package:
+addpath('path_to_oo/oo')
+
+Then, call its functions by using the package namespace. For example:
+data = oo.io.load('set','Dataset-1','fol','Preprocessed/','sub',[1,2,3],'ses',["session-1", "session-2"],'run',[1,2]);
